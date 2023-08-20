@@ -24,17 +24,6 @@ const (
 	foodPriceForUnit          = 1
 )
 
-//func (h *Home) Eat(who bool) {
-//	if who {
-//		f.Husband.Satiety += eat
-//		fmt.Println(f.Husband.Name, "- покушал")
-//	} else {
-//		f.Wife.Satiety += eat
-//		fmt.Println(f.Wife.Name, "- покушала")
-//	}
-//	f.House.Food -= eat
-//}
-
 func (h *Home) Work() {
 	h.money += addMoney
 	h.husband.satiety -= minusSatietyPerDay
